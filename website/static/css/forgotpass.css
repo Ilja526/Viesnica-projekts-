@@ -1,0 +1,53 @@
+h1 {
+    cursor: help;
+    margin: 0;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 3px;
+}
+form {
+    margin: 0 auto;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px #000;
+}
+.group {
+    margin: 20px;
+    padding: 5px;
+}
+label {
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+input {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px/10px;    
+    font-size: 18px;
+    border: none;
+    padding-left: 15px;
+    box-shadow: 2px 2px 4px #000;
+}
+input:focus {
+    transform: translateX(15px);
+    width: 385px;
+}
+.ForPass {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+    width: 100px;  
+    left: 900px; 
+    font-size: 40px;
+    color: black;
+    font-style: normal;
+}
+body{
+    background: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/198589995.jpg?k=8ed2f889db59c6f26aafd092c08a36627487a1f2aabba9cbec6d7293bc73f525&o=&hp=1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
